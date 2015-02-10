@@ -1,0 +1,12 @@
+name: docker-hub-build-trigger
+version: 0.0.1
+description: Wercker step for docker-hub build trigger
+keywords:
+  - docker-hub
+properties:
+  token:
+    type: string
+    required: true
+  repo:
+    type: string
+    required: true
